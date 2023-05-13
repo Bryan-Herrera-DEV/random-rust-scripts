@@ -1,0 +1,12 @@
+[package]
+name = "random-rust-scripts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+async-trait = "0.1.50"
+rand = "0.8.4"
+futures = "0.3.15"
+termion = "1.5.5"
+getopts = "0.2"
